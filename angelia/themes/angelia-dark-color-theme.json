@@ -1,0 +1,45 @@
+{
+  "name": "Angelia Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#21191D",
+    "editor.foreground": "#F3E4DF",
+    "editorCursor.foreground": "#D9A0AA",
+    "editorLineNumber.foreground": "#80666B",
+    "editorLineNumber.activeForeground": "#D9A0AA",
+    "editor.selectionBackground": "#58313D",
+    "editor.lineHighlightBackground": "#302329",
+    "activityBar.background": "#302329",
+    "sideBar.background": "#281F23",
+    "sideBar.foreground": "#F3E4DF",
+    "titleBar.activeBackground": "#302329",
+    "titleBar.activeForeground": "#F3E4DF",
+    "statusBar.background": "#800020",
+    "statusBar.foreground": "#FFF9F4",
+    "panel.background": "#281F23",
+    "terminal.background": "#21191D",
+    "focusBorder": "#B58B54"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {"foreground": "#D9A0AA"}
+    },
+    {
+      "scope": ["string"],
+      "settings": {"foreground": "#D9B18C"}
+    },
+    {
+      "scope": ["comment"],
+      "settings": {"foreground": "#B58B54", "fontStyle": "italic"}
+    },
+    {
+      "scope": ["function"],
+      "settings": {"foreground": "#D6A18D"}
+    },
+    {
+      "scope": ["variable"],
+      "settings": {"foreground": "#F3E4DF"}
+    }
+  ]
+}

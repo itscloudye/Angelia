@@ -1,0 +1,45 @@
+{
+  "name": "Angelia Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFF9F4",
+    "editor.foreground": "#513B3E",
+    "editorCursor.foreground": "#800020",
+    "editorLineNumber.foreground": "#C6A6A3",
+    "editorLineNumber.activeForeground": "#800020",
+    "editor.selectionBackground": "#EAD1D5",
+    "editor.lineHighlightBackground": "#F8EDE9",
+    "activityBar.background": "#F3E4DF",
+    "sideBar.background": "#F9EEE9",
+    "sideBar.foreground": "#513B3E",
+    "titleBar.activeBackground": "#F3E4DF",
+    "titleBar.activeForeground": "#513B3E",
+    "statusBar.background": "#800020",
+    "statusBar.foreground": "#FFF9F4",
+    "panel.background": "#FFF5EF",
+    "terminal.background": "#FFF9F4",
+    "focusBorder": "#B58B54"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {"foreground": "#800020"}
+    },
+    {
+      "scope": ["string"],
+      "settings": {"foreground": "#A65D69"}
+    },
+    {
+      "scope": ["comment"],
+      "settings": {"foreground": "#B58B54", "fontStyle": "italic"}
+    },
+    {
+      "scope": ["function"],
+      "settings": {"foreground": "#A15C50"}
+    },
+    {
+      "scope": ["variable"],
+      "settings": {"foreground": "#513B3E"}
+    }
+  ]
+}
